@@ -1,0 +1,68 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    background-color: rebeccapurple;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 95vw;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header li {
+    display: inline;
+    list-style: none;
+}
+
+header a {
+    color: #fff;
+}
+
+header a:hover {
+    color: coral;
+    transition: all 0.15s linear;
+}
+
+main {
+    margin-top: 100px;
+}
+
+#about {
+    margin: 0 auto;
+    max-width: 75vw;
+}
+
+#about img {
+    display: block;
+    margin: 0 auto;
+}
+
+#contact {
+    margin: 0 auto;
+    max-width: 75vw;
+}
+
+#contact form {
+    border: solid 2px green;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 40%;
+    padding: 20px;
+}
+
+.formgroup {
+    margin: 15px 0;
+}
